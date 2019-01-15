@@ -18,3 +18,9 @@ var person = {
 //console.log(myres);
 
 console.log(person.cars[1].type);
+
+var myJson = JSON.stringify(person);
+var myObj = JSON.parse(myJson);
+
+console.log(myJson);
+console.log(myObj);
